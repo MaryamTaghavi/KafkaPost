@@ -53,6 +53,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post.Cmd.Api", "Post.Cmd.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Cmd.Api", "SM-Post\Post.Cmd.Api\Post.Cmd.Api.csproj", "{D2524CCF-1442-4146-B316-A014EAAFAB60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{D303C6C2-DDF8-459B-854A-E3A26192A1DF}"
+	ProjectSection(SolutionItems) = preProject
+		PostCreatedEvent.cs = PostCreatedEvent.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +132,7 @@ Global
 		{2A96D1CE-9B18-4575-A189-E36E14873696} = {9C66D3C3-684E-42B8-A752-98D60604AC15}
 		{2BC98785-9975-4D3C-853D-30102B08648E} = {AAA63E0D-60A7-46A8-9B99-1F49791606DE}
 		{D2524CCF-1442-4146-B316-A014EAAFAB60} = {2BC98785-9975-4D3C-853D-30102B08648E}
+		{D303C6C2-DDF8-459B-854A-E3A26192A1DF} = {D99A9C72-C8D5-4279-A39F-C2A3D086CEBE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65E34DD7-EE6A-4BF1-AC20-0B9D79C51DED}
