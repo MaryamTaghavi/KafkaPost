@@ -12,6 +12,8 @@ public abstract class AggregateRoot
         get { return _id; } 
     }
 
+    // Control Concurrency
+    // مقدار اولیه -1 است یعنی هیچ رویدادی اضافه نشده است
     public int Version { get; set; } = -1;
 
     public IEnumerable<BaseEvent> GetUnCommitedChanges()
@@ -41,11 +43,13 @@ public abstract class AggregateRoot
         }
     }
 
+    // ایجاد رویداد جدید که به لیست اضافه میشوند
     protected void RaiseEvent(BaseEvent @event)
     {
         ApplyChange(@event, true);
     }
 
+    //مسئول بازسازی ایونت ها را دارند و به تغییرات اضافه نمیشوند
     public void ReplayEvents(IEnumerable<BaseEvent> events)
     {
         foreach(var @event in events) 
