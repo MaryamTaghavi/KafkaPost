@@ -54,9 +54,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Post.Cmd.Api", "SM-Post\Post.Cmd.Api\Post.Cmd.Api.csproj", "{D2524CCF-1442-4146-B316-A014EAAFAB60}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{D303C6C2-DDF8-459B-854A-E3A26192A1DF}"
-	ProjectSection(SolutionItems) = preProject
-		PostCreatedEvent.cs = PostCreatedEvent.cs
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
