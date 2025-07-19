@@ -14,4 +14,8 @@
     <ProjectReference Include="..\..\CQRS.Core\CQRS.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

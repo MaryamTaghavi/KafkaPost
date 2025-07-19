@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Post.Common.Api\Post.Common.Api.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
